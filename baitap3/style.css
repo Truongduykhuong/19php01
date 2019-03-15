@@ -1,0 +1,99 @@
+body{
+	width: 1024px;
+	margin: 0px auto;
+}
+header{
+	height: 200px;
+	width: 1024px;
+	border: 1px solid black;
+}
+#logo{
+	float: left;
+	width: 507px;
+	height: 98px;
+	border: 1px solid black;
+	text-align: center;	
+}
+#slogan{
+	float: left;
+	width: 507px;
+	height: 98px;
+	text-align: center;
+}
+.clear{
+	clear: left;
+}
+#lider{
+	width: 1024px;
+	height: 98px;
+	border: 1px solid black;
+	text-align: center;
+}
+section{
+	height: 400px;
+	width: 1024px;
+	border: 1px solid black;
+}
+#news1{
+	float:left;
+	height: 97px;
+	width: 340px;
+	border: 1px solid black;
+	text-align: center;
+}
+#news2{
+	float: left;
+	height: 97px;
+	width:338px;
+	border:1px solid black;
+	text-align: center;
+}
+#news3{
+	float: left;
+	height: 97px;
+	width:340px;
+	border:1px solid black;
+	text-align: center;
+}
+#ads1{
+	float: left;
+	width: 510px;
+	height: 98px;
+	border: 1px solid black;
+	text-align: center;
+}
+#ads2{
+	float: left;
+	width: 510px;
+	height: 98px;
+	border: 1px solid black;
+	text-align: center;
+}
+.clear{
+	clear: left;
+}
+#content{
+	height: 198px;
+	width: 1024px;
+	border: 1px solid black;
+	text-align: center;
+}
+footer{
+	height: 50px;
+	width: 1024px;
+	border: 1px solid black;
+}
+#footer1{
+	height: 48px;
+	width:510px;
+	float: left;
+	border:1px solid black;
+	text-align: center;
+}
+#footer2{
+	height: 48px;
+	width:510px;
+	float: left;
+	border:1px solid black;
+	text-align: center;
+}
