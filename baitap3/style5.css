@@ -1,0 +1,44 @@
+#header{
+	width: 100px;
+	border-bottom: 2px;
+	border: 1px solid green;
+}
+.brond{
+	float: left;
+	width: 33%;
+	border-left: 2px ;
+	border: 1px solid green;
+}
+.now{
+	float: left;
+	width: 33%;
+	border-left: 2px ;
+	border: 1px solid green;
+}
+.action{
+	float: left;
+	width: 33%;
+	border-left: 2px;
+	border: 1px solid green;
+}
+@media screen and (max-width: 768px) {
+	.brond{
+		width: 20%;
+	}
+	.now{
+		width: 59%;
+	}
+	.action{
+		width: 20%;
+	}
+}@media screen and (max-width: 480px) {
+	.brond{
+		width: 98%;
+	}
+	.now{
+		width: 60%;
+	}
+	.action{
+		width: 38%;
+	}
+}

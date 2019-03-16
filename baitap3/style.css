@@ -1,99 +1,150 @@
-body{
-	width: 1024px;
-	margin: 0px auto;
-}
-header{
-	height: 200px;
-	width: 1024px;
-	border: 1px solid black;
-}
-#logo{
+.logo{
 	float: left;
-	width: 507px;
+	width: 30%;
 	height: 98px;
 	border: 1px solid black;
 	text-align: center;	
 }
-#slogan{
+.slogan{
 	float: left;
-	width: 507px;
+	width: 69%;
 	height: 98px;
 	text-align: center;
 }
 .clear{
 	clear: left;
 }
-#lider{
-	width: 1024px;
+.lider{
+	width: 100%;
 	height: 98px;
 	border: 1px solid black;
 	text-align: center;
 }
-section{
-	height: 400px;
-	width: 1024px;
-	border: 1px solid black;
-}
-#news1{
+.news1{
 	float:left;
 	height: 97px;
-	width: 340px;
-	border: 1px solid black;
+	width: 32%;
+	border: 2px solid black;
 	text-align: center;
 }
-#news2{
+.news2{
 	float: left;
 	height: 97px;
-	width:338px;
-	border:1px solid black;
+	width:33%;
+	border:2px solid black;
 	text-align: center;
 }
-#news3{
+.news3{
 	float: left;
 	height: 97px;
-	width:340px;
-	border:1px solid black;
+	width:33%;
+	border:2px solid black;
 	text-align: center;
 }
-#ads1{
+.ads1{
 	float: left;
-	width: 510px;
+	width: 69%;
 	height: 98px;
-	border: 1px solid black;
+	border: 2px solid black;
 	text-align: center;
 }
-#ads2{
+.ads2{
 	float: left;
-	width: 510px;
+	width: 30%;
 	height: 98px;
-	border: 1px solid black;
+	border: 2px solid black;
 	text-align: center;
 }
 .clear{
 	clear: left;
 }
-#content{
+.content{
 	height: 198px;
-	width: 1024px;
+	width: 100%;
 	border: 1px solid black;
 	text-align: center;
 }
-footer{
-	height: 50px;
-	width: 1024px;
-	border: 1px solid black;
-}
-#footer1{
+.footer1{
 	height: 48px;
-	width:510px;
+	width:50%;
 	float: left;
 	border:1px solid black;
 	text-align: center;
 }
-#footer2{
+.footer2{
 	height: 48px;
-	width:510px;
+	width:49%;
 	float: left;
 	border:1px solid black;
 	text-align: center;
+}
+@media screen and (max-width: 768px){
+	.logo{
+		width: 50%;
+	}
+	.slogan{
+		width: 49%;
+	}
+	.lider{
+		width: 100%;
+	}
+	.news1{
+		width: 49%;
+	}
+	.news2{
+		width: 49%;
+	}
+	.news3{
+		width: 98%;
+	}
+	.ads1{
+		width: 49%;
+	}
+	.ads2{
+		width: 49%;
+	}
+	.content{
+		width: 98%;
+	}
+	.footer1{
+		width: 50%;
+	}
+	.footer2{
+		width: 49%
+	}
+}
+@media screen and (max-width: 480px){
+	.logo{
+		width: 98%;
+	}
+	.slogan{
+		width: 98%;
+	}
+	.lider{
+		width: 98%;
+	}
+	.news1{
+		width: 98%;
+	}
+	.news2{
+		width: 98%;
+	}
+	.news3{
+		width: 98%;
+	}
+	.ads1{
+		width: 98%;
+	}
+	.ads2{
+		width: 98%;
+	}
+	.content{
+		width: 98%;
+	}
+	.footer1{
+		width: 98%;
+	}
+	.footer2{
+		width: 98%;
+	}
 }
