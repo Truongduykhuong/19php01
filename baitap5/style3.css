@@ -1,0 +1,96 @@
+body {
+	font-family: Tahoma;
+	font-size: 13px;
+	width: 1000px;
+	margin: 0px auto;
+}
+#menu_top {
+	background: #50DEE5;
+	height: 40px;
+	width: auto;
+}
+#banner {
+	height: auto;
+	width: 1000px;
+}
+#main #left {
+	width: 700px;
+	float: left;
+	min-height: 400px;
+}
+#main #right {
+	width: 300px;
+	float: left;
+	min-height: 400px;
+}
+#footer {
+	width: 1000px;
+	text-align: center;
+	height: 20px;
+	clear: left;
+	background: black;
+}
+#menu_top ul {
+	margin:0px;
+	padding: 0px;
+}
+#menu_top ul li {
+	list-style: none;
+	float: left;
+}
+#menu_top ul li a {
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	color: #fff;
+	padding: 0px 37px 0px 37px;
+	border-right: 1px solid #f1f1f1;
+}
+#menu_top ul li:hover {
+	background: #B4EE49;
+}
+#banner img {
+	width: 1000px;
+}
+#main #left ul {
+	margin:0px;
+	padding: 0px;
+}
+#main #left ul li {
+	list-style: none;
+	clear: left;
+	border-bottom: 2px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+}
+#main #left ul li img {
+	float: left;
+	width: 250px;
+	height: 150px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+#main #left ul li h2 {
+	font-size: 20px;
+	margin-top: 0px;
+}
+#main {
+	margin-top: 10px;
+}
+#main #right .menu_right h3 {
+	background: #194d58;
+	height: 40px;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	color: #fff;
+}
+input {
+	width: 280px;
+	height: 100px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	font-size: 20px;
+}
