@@ -1,0 +1,52 @@
+ body {
+ 	background: #ccc;
+ }
+ #form {
+ 	background: #fff;
+	width: 650px;
+	margin: 0px auto;
+	border: 1px solid #ccc;
+	margin-top: 80px;
+}
+h1 {
+	margin: 45px 194px 20px 224px;
+    font-size: 20px;
+}
+input {
+	margin: 9px 117px 10px 129px;
+	width: 400px;
+	height: 40px;
+	border: 1px solid #ccc;
+	font-size: 20px;
+}
+input[type="submit" i]{
+	background:#2009B7;
+	color: #fff;
+	height: 50px; 
+}
+ul li {
+	list-style: none;
+	margin-left: 233px;
+}
+ul li a {
+	text-decoration: none;
+}
+p {
+	margin-left: 303px;
+}
+.taotk input[type="submit" i]{
+	background: green;
+	width: 200px;
+	margin-left: 225px;
+	margin-bottom: 50px;
+}
+input[type="submit" i]:hover {
+	background: #2604FE;
+}
+.taotk input[type="submit" i]:hover {
+	background: #12DA15;
+}
+ul li a:hover {
+	text-decoration: underline;
+}
+
