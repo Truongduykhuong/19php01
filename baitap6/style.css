@@ -1,52 +1,202 @@
- body {
- 	background: #ccc;
- }
- #form {
- 	background: #fff;
-	width: 650px;
+body{
+	width: 100%;
 	margin: 0px auto;
-	border: 1px solid #ccc;
-	margin-top: 80px;
 }
-h1 {
-	margin: 45px 194px 20px 224px;
-    font-size: 20px;
+#banner{
+	height: 80px;
+	width: 100%;
+	background-color: #3B5998;
 }
-input {
-	margin: 9px 117px 10px 129px;
-	width: 400px;
-	height: 40px;
-	border: 1px solid #ccc;
+#main{
+		background-color: #E9EBEE;
+		margin-top: 0px;
+		height: 700px;
+		width: 100%;
+}
+.word{
+	font-size: 25px;
+	margin-top: -30px;
+}
+h1{
+	color: white;
+	float: left;
+	line-height: 40px;
+	text-indent: 80px;
+}
+.float{
+	float: left;
+	color: white;
+}
+.box {
+	height: 25px;
+}
+.float1{
+	float: left;
+	margin-left: 10px;
+	color: white;
+}
+.form1{
+	margin-left: 50%;
+}
+.submit{
+	float: left;
+	margin-top: 17px;
+	background-color: #503EF4;
+	color: white;
+	height: 30px;
+}
+h3{
+	color: blue;
+	font-size: 18px;
+	float: left;
+	margin-top: 60px;
+}
+.logo {
+	float: left;
+	width: 100%;
+}
+.content1{
+	float: left;
+	width: 30%;
+	margin-left: -85px;
+}
+.form2{
+	float: left;
+	width: 40%;
+	margin-left: 145px;
+}
+.createForm{
+	float: left;
+}
+.they{
+	width: 41%;
+	height: 30px;
+	float: left;
+	margin-right: 2px;
+	border-radius: 5px;
+}
+.name{
+	width: 41%;
+	height: 30px;
+	float: left;
+	border-radius: 5px;
+}
+.phoneEmail{
+	width: 83%;
+	height: 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.new{
+	width: 83%;
+	height: 30px;
+	border-radius: 5px;
+}
+.date{
 	font-size: 20px;
 }
-input[type="submit" i]{
-	background:#2009B7;
-	color: #fff;
-	height: 50px; 
+.provide{
+	float: left;
+	margin-top: -2px;
+	width: 30%;
+	font-size: 14px;
+	margin-left: 2px;
 }
-ul li {
-	list-style: none;
-	margin-left: 233px;
+.createNew{
+	font-weight: bold;
+	font-size: 40px;
 }
-ul li a {
+.day{
+	float: left;
+	height: 30px;
+	width: 16%;
+}
+.month{
+	float: left;
+	height: 30px;
+	width: 16%;
+	margin-left: 2%;
+}
+.gender{
+	float: left;
+	margin-left: -450px;
+	margin-top: 30px;
+}
+.footer1{
+	list-style-type: none;
+	float: left;
+	width: 80%;
+	margin: 0 auto;
+	line-height: 100px;
+	padding-left: 170px;
+	font-size: 14px;
+	border-bottom: 2px solid #ccc;
+}
+.footer2{
+	width: 80%;
+	list-style-type: none;
+	float: left;
+	font-size: 15px;
+	padding-left: 170px;
+	margin-bottom: 40px;
+}
+li a{
+	float: left;
+	margin-left: 21px;
+
+}
+li  a{
 	text-decoration: none;
+	color: blue;
 }
-p {
-	margin-left: 303px;
+li a:visted{
+	color: blue;
 }
-.taotk input[type="submit" i]{
-	background: green;
-	width: 200px;
-	margin-left: 225px;
-	margin-bottom: 50px;
-}
-input[type="submit" i]:hover {
-	background: #2604FE;
-}
-.taotk input[type="submit" i]:hover {
-	background: #12DA15;
-}
-ul li a:hover {
+li a:hover{
 	text-decoration: underline;
 }
+li a:active{
+	color: blue;
+}
+ a{
+	text-decoration: none;
+	color: blue;
+}
+a:visted{
+	color: blue;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:active{
+	color: blue;
+}
+.gender1{
+	float: left;
+	margin-left: -350px;
+	margin-top: 30px;
+}
+.text1{
+	float: left;
+	width: 80%;
+	font-size: 14px;
+	color: grey;
+}
+.year{
+	float: left;
+	height: 30px;
+	width: 16%;
+	margin-left: 2%;
+}
+.create{
+	background-color: #19AB25;
+	float: left;
+	width: 30%;
+	height: 40px;
+}
 
+#footer{
+	height: 200px;
+	background-color: #F6F7F9;
+	margin-top: -50px;
+}

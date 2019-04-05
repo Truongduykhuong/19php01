@@ -11,15 +11,15 @@ body {
 }
 #banner {
 	height: auto;
-	width: 1000px;
+	width: 100%;
 }
 #main #left {
-	width: 800px;
+	width: 80%s;
 	float: left;
 	min-height: 400px;
 }
 #footer {
-	width: 1000px;
+	width: 100%;
 	text-align: center;
 	height: 20px;
 	clear: left;
@@ -46,7 +46,7 @@ body {
 	background: #B4EE49;
 }
 #banner img {
-	width: 1000px;
+	width: 100%;
 }
 
 #main #left h2 {
@@ -58,5 +58,5 @@ body {
 }
 #main #left img {
 	padding-bottom: 20px;
-	width: 800px;
+	width: 80%;
 }

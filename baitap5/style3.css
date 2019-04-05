@@ -11,20 +11,20 @@ body {
 }
 #banner {
 	height: auto;
-	width: 1000px;
+	width: 100%;
 }
 #main #left {
-	width: 700px;
+	width: 70%;
 	float: left;
 	min-height: 400px;
 }
 #main #right {
-	width: 300px;
+	width: 30%;
 	float: left;
 	min-height: 400px;
 }
 #footer {
-	width: 1000px;
+	width: 100%;
 	text-align: center;
 	height: 20px;
 	clear: left;
@@ -51,7 +51,7 @@ body {
 	background: #B4EE49;
 }
 #banner img {
-	width: 1000px;
+	width:100%;
 }
 #main #left ul {
 	margin:0px;
